@@ -111,8 +111,7 @@ class _MyHomePageState extends State<MyHomePage> {
             //DynamicIconsMatte.icon('add'),
             DynamicIconsMatte(name: 'add',color: Colors.yellow,),
             DynamicIconsMatte(name: 'people',color: Colors.red,sizes: 50,),
-            DynamicIconsMatte(name: 'sare',color: Colors.black,sizes: 100,)
-
+            DynamicIconsMatte(name: 'shar',color: Colors.black,sizes: 100,)
           ],
         ),
       ),

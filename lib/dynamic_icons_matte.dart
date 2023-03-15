@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 /// 
 
 class DynamicIconsMatte extends StatelessWidget {
-   DynamicIconsMatte({Key? key, required this.name,  this.sizes =20,  this.color = Colors.black}) : super(key: key);
+   DynamicIconsMatte({Key? key, required this.name,  this.sizes = 30,  this.color = Colors.white}) : super(key: key);
   
   final String name;
   final double sizes;
@@ -8373,27 +8373,6 @@ class DynamicIconsMatte extends StatelessWidget {
 
   @override
   Icon build(BuildContext context) {
-    return Icon(iconList[this.name], size: this.sizes, color: this.color,);
+    return Icon(iconList[this.name] ?? Icons.launch, size: this.sizes, color: this.color,);
   }
 }
-
-// class DynamicIconsMatte {
-//   /// Returns [value] plus 1.
-//   ///
-//   // static double sizes = 0;
-//   // static Color color = Colors.black;
-//
-//   // final String name;
-//   // final double sizes;
-//   // final Color color;
-//   //
-//   // DynamicIconsMatte(this.name, {this.sizes = 20, this.color = Colors.black});
-//   //
-//   //   dynamic String name, {Color colour = Colors.black, double size = 20}) {
-//   //   sizes = size;
-//   //   color = colour;
-//   //   return iconList[name] ?? Icons.launch, );
-//   // }
-//
-//
-// }
