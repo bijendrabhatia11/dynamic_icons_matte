@@ -11,29 +11,53 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages).
 -->
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+You can use materials icons at run time or you can define a material icon name and use icon.
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+Dynamic Icons, Use icons with a dynamic string name.
+
+- Use material Icons with icon name only
+- Define String from remote and use
+
 
 ## Getting started
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+For example, say you want to use the icons which you are changing at run time.
+
+In normal way we use icons as
+```dart
+Icon(Icons.add); 
+```
+which show '+' icon.
+
+Now if you want to define from BE or from APIs then you have to provide a string name like 'add'.
+But you can not use String 'add' directly and the reason is Icons are 'DataIcons'.
+
+So for this problem we have introduce a new package as 'dynamic_icons_matte'
+
+To use `dynamic_icons_matte`:
+
+```dart
+dependencies:
+  flutter:
+    sdk: flutter
+  dynamic_icons: ^0.0.1
+  
+  ```
+
+To import `dynamic_icons_matte`:
+
+```dart
+import 'package:dynamic_icons/dynamic_icons_matte.dart';
+```
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
-
 ```dart
-const like = 'sample';
+DynamicIconsMatte.icon('add', colour: Colors.red)
 ```
 
 ## Additional information
 
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+You can define any material name here, if icons will not exists then this will show 'launch ' icon as default.
