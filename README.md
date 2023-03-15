@@ -42,7 +42,7 @@ To use `dynamic_icons_matte`:
 dependencies:
   flutter:
     sdk: flutter
-  dynamic_icons: ^0.0.1
+  dynamic_icons_matte: ^0.0.1
   
   ```
 
@@ -55,7 +55,7 @@ import 'package:dynamic_icons/dynamic_icons_matte.dart';
 ## Usage
 
 ```dart
-DynamicIconsMatte.icon('add', colour: Colors.red)
+DynamicIconsMatte(name: 'add',color: Colors.black,sizes: 100,);
 ```
 
 ## Additional information
