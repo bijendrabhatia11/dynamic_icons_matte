@@ -67,11 +67,13 @@ Icons name can be picked from given list
 
 
 
- | Icons Name |
+ | Icons Name
  | --- |
 
- | abc |
- | abc_outlined |
+ | abc 
+ | abc_outlined 
+
+
  | abc_rounded |
  | abc_sharp |
  | ac_unit |
