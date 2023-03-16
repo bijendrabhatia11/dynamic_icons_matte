@@ -8420,3 +8420,7 @@ Icons.signal_wifi_statusbar_connected_no_internet_4_sharp,
 | zoom_out_outlined  | ...      | ...      |
 | zoom_out_rounded  | ...      | ...      |
 | zoom_out_sharp  | ...      | ...      |
+
+
+For preview Kinldy refer to this:
+https://pub.dev/packages/icon_forest
