@@ -1,8 +1,7 @@
 name: dynamic_icons_matte
 description: A package for ios and android to create dynamic icons just using a icon name.
 version: 0.0.3
-author: Bijendra Singh<bijendra.bhatia11@gmail.com>
-homepage: https://github.com/bijendrabhatia11/dynamic_icons_matte.git
+homepage: https://github.com/bijendrabhatia11/dynamic_icons_matte
 repository: https://github.com/bijendrabhatia11/dynamic_icons_matte
 
 environment:
