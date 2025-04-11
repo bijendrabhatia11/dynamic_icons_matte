@@ -50,4 +50,4 @@ DynamicIconsMatte(name: 'add',color: Colors.black,sizes: 100,);
 You can define any material name here, if icons will not exists then this will show 'launch ' icon as default.
 
 Full list of supported icon names:
-See icons_list.md
+See [`icons_list.md`](https://github.com/bijendrabhatia11/dynamic_icons_matte/blob/master/icons_list.md)
