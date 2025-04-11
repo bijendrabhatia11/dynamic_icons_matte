@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 /// A Calculator.
 /// 
@@ -8217,10 +8218,7 @@ class DynamicIconsMatte extends StatelessWidget {
     'west_outlined': Icons.west_outlined, 
     'west_rounded': Icons.west_rounded, 
     'west_sharp': Icons.west_sharp, 
-    'whatsapp': Icons.whatsapp, 
-    'whatsapp_outlined': Icons.whatsapp_outlined, 
-    'whatsapp_rounded': Icons.whatsapp_rounded, 
-    'whatsapp_sharp': Icons.whatsapp_sharp, 
+    'whatsapp': FontAwesomeIcons.whatsapp,
     'whatshot': Icons.whatshot, 
     'whatshot_outlined': Icons.whatshot_outlined, 
     'whatshot_rounded': Icons.whatshot_rounded, 

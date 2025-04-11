@@ -5,3 +5,7 @@
 ## [0.0.2] - 2023-03-15
 
 * A default icon added when user access incorrect name.
+
+## [0.0.3] - 2025-04-11
+
+* Package updated for multiple issues and bugs
