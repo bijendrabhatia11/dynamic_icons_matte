@@ -11,7 +11,7 @@ class DynamicIconsMatte extends StatelessWidget {
   final double sizes;
   final Color color;
 
-   Map<String, IconData> iconList = {
+  final Map<String, IconData> iconList = {
     // Material Icons
     'abc': Icons.abc,
     'abc_outlined': Icons.abc_outlined,
@@ -8371,6 +8371,6 @@ class DynamicIconsMatte extends StatelessWidget {
 
   @override
   Icon build(BuildContext context) {
-    return Icon(iconList[this.name] ?? Icons.launch, size: this.sizes, color: this.color,);
+    return Icon(iconList[name] ?? Icons.launch, size: sizes, color: color,);
   }
 }
