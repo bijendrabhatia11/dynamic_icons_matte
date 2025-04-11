@@ -8272,9 +8272,6 @@ Icons.signal_wifi_statusbar_connected_no_internet_4_sharp,
 | west_rounded  | ...      | ...      |
 | west_sharp  | ...      | ...      |
 | whatsapp  | ...      | ...      |
-| whatsapp_outlined  | ...      | ...      |
-| whatsapp_rounded  | ...      | ...      |
-| whatsapp_sharp  | ...      | ...      |
 | whatshot  | ...      | ...      |
 | whatshot_outlined  | ...      | ...      |
 | whatshot_rounded  | ...      | ...      |
