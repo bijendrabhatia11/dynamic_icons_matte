@@ -111,9 +111,9 @@ class _MyHomePageState extends State<MyHomePage> {
               style: Theme.of(context).textTheme.headlineMedium,
             ),
             //DynamicIconsMatte.icon('add'),
-            DynamicIconsMatte(name: 'add',color: Colors.yellow,),
-            DynamicIconsMatte(name: 'people',color: Colors.red,sizes: 50,),
-            DynamicIconsMatte(name: 'shar',color: Colors.black,sizes: 100,)
+            DynamicIconsMatte(name: 'add', color: Colors.yellow),
+            DynamicIconsMatte(name: 'people', color: Colors.red, sizes: 50),
+            DynamicIconsMatte(name: 'shar', color: Colors.black, sizes: 100),
           ],
         ),
       ),
