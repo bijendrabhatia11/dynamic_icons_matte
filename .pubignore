@@ -1,20 +1,4 @@
-# Ignore files pub shouldn't publish (even if they're committed to git)
-
-# Android local build files
-example/android/.gradle/
-example/android/local.properties
-example/android/gradlew
-example/android/gradlew.bat
-example/android/gradle/wrapper/gradle-wrapper.jar
-example/android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java
-
-# iOS generated files
-example/ios/Flutter/Generated.xcconfig
-example/ios/Flutter/flutter_export_environment.sh
-example/ios/Runner/GeneratedPluginRegistrant.h
-example/ios/Runner/GeneratedPluginRegistrant.m
-
-# Common build cache
+# Still ignore local build artifacts
 build/
 .dart_tool/
 .packages
