@@ -3,6 +3,7 @@ description: A package for ios and android to create dynamic icons just using a 
 version: 0.0.3
 author: Bijendra Singh<bijendra.development@gmail.com>
 homepage: https://github.com/bijendrabhatia11/dynamic_icons_matte.git
+repository: https://github.com/bijendrabhatia11/dynamic_icons_matte
 
 environment:
   sdk: '>=2.18.5 <3.0.0'
