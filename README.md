@@ -29,7 +29,7 @@ To use `dynamic_icons_matte`:
 dependencies:
 flutter:
 sdk: flutter
-dynamic_icons_matte: ^0.0.4
+dynamic_icons_matte: ^0.0.5
 
 ```
 

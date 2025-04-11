@@ -13,3 +13,7 @@
 ## [0.0.4] - 2025-04-11
 
 * Package updated for multiple issues and bugs
+
+## [0.0.5] - 2025-04-11
+
+* Code optimized
